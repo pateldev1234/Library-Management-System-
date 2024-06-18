@@ -1,0 +1,41 @@
+/* Centering the table on the screen */
+.table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100vh;
+}
+
+/* Styling the table */
+.member-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+/* Styling the table header */
+.table-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Equal spacing between columns */
+.member-table th, .member-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Adding some styles for the table rows */
+.member-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.member-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.member-table tr:hover {
+    background-color: #f1f1f1;
+}

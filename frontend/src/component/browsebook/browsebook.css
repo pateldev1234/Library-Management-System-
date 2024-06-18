@@ -1,0 +1,32 @@
+/* Container to center the NavLink */
+.navlink-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #f5f5f5; /* Optional: background color for the whole container */
+    
+}
+
+/* Styling for the NavLink */
+.h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px; 
+    height: 100px; 
+    background-color: #007bff; /* Blue background color */
+    color: white;
+    font-size: 24px; 
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s ease; 
+    margin: 20px;
+   
+}
+
+/* Change background color on hover */
+.h1:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

@@ -1,0 +1,49 @@
+.outercircle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: darkblue;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 20%;
+    gap: 15px; /* Adds space between items */
+    flex-wrap: wrap; /* Ensures wrapping of items in case of small screen sizes */
+    
+}
+
+.outercircle h1 {
+    margin-bottom: 0;
+    color: white;
+    flex: 1 1 100%; /* Ensures the heading takes the full width in a new row */
+    text-align: center;
+}
+
+
+
+.outercircle input[type='text'] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px; /* Fixed width for better alignment */
+    box-sizing: border-box;
+    margin-bottom: 0;
+}
+
+
+.outercircle button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.outercircle button:hover {
+    background-color: #0056b3;
+}
+

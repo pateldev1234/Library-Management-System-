@@ -1,0 +1,54 @@
+.member-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+
+.title
+{
+    text-align: center;
+}
+
+.member-details {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+.member-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.member-subtitle {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #777;
+}
+
+.member-description {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.member-info {
+    font-size: 25px;
+    color: #333;
+}
+
+.member-info p {
+    margin: 5px 0;
+}
+
+.member-info strong {
+    color: #000;
+}

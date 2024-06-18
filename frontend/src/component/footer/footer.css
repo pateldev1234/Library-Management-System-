@@ -1,0 +1,25 @@
+.outer1circle {
+    display: flex;
+    flex-direction: column;
+    width: 100vh; /* Adjust as needed */
+    height: 80vh;
+    margin: auto; /* Centers the container */
+    background-color: #00ffff;
+    margin-top: 20px;
+    border-radius: 10px;
+    
+  }
+  
+  .outer1circle .f1 {
+    width: 60%; /* Each inner div takes up 60% of the outer1circle */
+    margin: 10px auto; 
+    text-align: center; 
+    padding: 10px;
+    background-color: blue;
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 50px;
+    color: white;
+
+  }
+
+  

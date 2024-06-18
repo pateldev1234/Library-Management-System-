@@ -1,0 +1,12 @@
+.outer {
+    border: 2px solid black;  /* Adds a boundary around the div */
+    display: flex;            
+    justify-content: center;  /* Centers the content horizontally */
+    align-items: center;      /* Centers the content vertically */
+    height: 100vh;            
+    text-align: center;       
+}
+
+h1 {
+    margin: 0;                /* Removes default margin from h1 */
+}
